@@ -25,7 +25,7 @@ table, th, td {
 	
 <% String url = "jdbc:mysql://localhost:3306/flyaway";
 String dbusername = "root";
-String dbpassword = "root";
+String dbpassword = "Rocky@4121";
 try {
 	Class.forName("com.mysql.cj.jdbc.Driver");
 	Connection connection = DriverManager.getConnection(url, dbusername, dbpassword);
